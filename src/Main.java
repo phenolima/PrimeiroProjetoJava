@@ -7,5 +7,14 @@ public class Main {
         String mensagem = "%.1f graus celsius equivale a %.1f graus fahrenheit".formatted(temperaturaCelsius, temperaturaFahrenheit);
 
         System.out.println(mensagem);
+
+        // 1
+        double nota1 = 7.5;
+        double nota2 = 6.43;
+
+        double media = (nota1 + nota2) /2;
+
+        System.out.println("A media é: " + media);
+
     }
 }
