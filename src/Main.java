@@ -22,6 +22,11 @@ public class Main {
 
         System.out.println("A variavel do tipo double convertida a inteiro é: " + (int) numero1);
 
+        // 3
+        char mensagem1 = 'O';
+        String mensagem2 = " Brasil vai ser hexa";
+
+        System.out.println(mensagem1 + mensagem2);
 
     }
 }
