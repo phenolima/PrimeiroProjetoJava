@@ -32,9 +32,17 @@ public class Main {
         // 4
         double precoProduto = 50;
         int quantidade = 20;
+        double valorTotal = precoProduto * quantidade;
+        String mensagemValorTotal = "O valor total da compra é: $RS %.2f".formatted(valorTotal);
 
-        System.out.println("O valor total da compra é: " + quantidade * precoProduto);
+        System.out.println(mensagemValorTotal);
 
         // 5
+        double valorEmDolares = 1;
+        double taxaDeCambio = 4.94;
+        double valorEmReais = taxaDeCambio * valorEmDolares;
+        String mensagemValorEmReais = "%.2f dolares equivale a %.2f reais".formatted(valorEmDolares,valorEmReais);
+
+        System.out.println(mensagemValorEmReais);
     }
 }
