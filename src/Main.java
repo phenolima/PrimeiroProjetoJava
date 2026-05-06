@@ -44,5 +44,16 @@ public class Main {
         String mensagemValorEmReais = "%.2f dolares equivale a %.2f reais".formatted(valorEmDolares,valorEmReais);
 
         System.out.println(mensagemValorEmReais);
+
+        // 6
+        double precoOriginal = 100;
+        double percentualDesconto = 90;
+        double valorDescontado = precoOriginal - (precoOriginal * (percentualDesconto / 100));
+        String mensagemValorDescontado = """
+                                       Aplicando o desconto de %.1f por cento no valor original %.2f
+                                       O valor descontado é %.2f
+                                       """.formatted(percentualDesconto, precoOriginal, valorDescontado);
+
+        System.out.println(mensagemValorDescontado);
     }
 }
