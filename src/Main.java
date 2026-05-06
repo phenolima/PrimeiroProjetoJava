@@ -28,5 +28,11 @@ public class Main {
 
         System.out.println(mensagem1 + mensagem2);
 
+
+        //4
+        double precoProduto = 50;
+        int quantidade = 20;
+
+        System.out.println("O valor total da compra é: " + quantidade * precoProduto);
     }
 }
