@@ -16,5 +16,12 @@ public class Main {
 
         System.out.println("A media é: " + media);
 
+        // 2
+        double numero1 = 30.6;
+        int numero2 = 25;
+
+        System.out.println("A variavel do tipo double convertida a inteiro é: " + (int) numero1);
+
+
     }
 }
