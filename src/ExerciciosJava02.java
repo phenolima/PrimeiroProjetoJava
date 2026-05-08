@@ -1,4 +1,4 @@
-public class ExerciciosJava {
+public class ExerciciosJava02 {
     public static void main(String[] args) {
 
         double temperaturaCelsius = 27;
